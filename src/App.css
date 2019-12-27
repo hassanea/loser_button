@@ -1,0 +1,96 @@
+body {
+    font-family: 'Amatic SC', cursive;  
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+    width: 50px;
+    height: 50px;
+/*    border: 2px groove #000;*/
+/*    border-radius: 25px;*/
+}
+
+.App-img {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.navbar {
+  background-color: cadetblue;   
+}
+
+.fa-home, .fa-info-circle {
+    color: #ddd;
+}
+
+.navbar-section a:hover {
+    margin-bottom: 5px;
+    border-bottom: 2px gold solid;
+}
+
+.App-header {
+  font-family: 'Amatic SC', cursive;    
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;    
+}
+
+.App-header h1:hover {
+    color: darkturquoise;
+    background-color: yellowgreen;
+}
+
+.App-link {
+  font-family: 'Rajdhani', sans-serif;  
+  color: #61dafb;
+}
+
+/*
+.App-link:hover {
+    
+}
+
+.App-link:active {
+    
+}
+
+.App-link:visited {
+    
+}
+*/
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+main {
+    height: auto;
+    min-height: 100%;
+}
+
+.loserBtn {
+     box-shadow: #bbb 15px 15px 15px 15px;   
+}
+
+.footer {
+   background-color: cadetblue;    
+   position: absolute;
+   clear: both;
+   width: 100%;
+   height: auto;
+}
