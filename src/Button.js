@@ -6,7 +6,8 @@ class Button extends Component {
     
     
 handleBtnClick = () => {
-        console.log('Audio play!')
+  console.log('Audio play!')
+  console.log('<i className="fas fa-volume-up"></i>')    
 const audio = document.getElementsByClassName("audio-element")[0]
     audio.play()
     }
